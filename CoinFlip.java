@@ -9,6 +9,14 @@ public class CoinFlip {
     bestOf = x;
   }
 
+  public void setW(int x) {
+    w = x;
+  }
+
+  public void setL(int x) {
+    l = x;
+  }
+
   public void makeGuess(char g) {
     char result;
 
