@@ -62,12 +62,13 @@ public class FindTheThimble extends GetInput {
 	int splitLost = best/2;
 	    //loop the best of number
 	while (i<best) {
+		System.out.println("Computer's thimble: " + choice[randInt]);
 		System.out.println("Guess Left or Right. Enter L or R: ");
 		guess = Character.toUpperCase(getLetter());
 		while(checkLetter(guess) == false) {
 			guess = Character.toUpperCase(getLetter());
 		}
-
+		
 		if(guess == (choice[randInt])) {
 			System.out.println("You're correct");
 			correct++;
