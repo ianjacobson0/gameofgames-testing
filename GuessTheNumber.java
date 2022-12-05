@@ -1,5 +1,6 @@
 /*guess the number for GoG assignment
 Author: Colin
+Version: Testing 
 IMPORTANT NOTE: some of what was said over slack contradicts the orignal use case. In those instances, I went with what was said on slack, as it was more recent.
 */
 import java.util.Scanner;
@@ -43,7 +44,7 @@ public class GuessTheNumber extends GetInput{
         //computer picks random number in the range
         int numberToGuess = random.nextInt(amount);
         // for test version: 
-        //System.out.println(numberToGuess);
+        System.out.println(numberToGuess);
         upperBound = amount;
         boolean gameLoopFlag = true;
         int guessCounter = 0;
